@@ -1,0 +1,46 @@
+[
+    {
+        "experiment": "VisualTTT",
+        "group": "Ours_cnf",
+        "epochs": 400,
+        "repetitions": 2,
+        "seed": 42,
+        "batch_size": 256,
+        "epochs_between_eval": 10,
+        "repetitions_dataset": 2,
+        "hyperparameters": {
+            "lr": 0.13912165742502566,
+            "temp": 0.5020752857450314,
+            "lr_cnn": 0.0002346503022612091,
+            "noise_w": 0.9132512648083538,
+            "min_temp": 0.3028898109498431,
+            "n_layers": 2,
+            "starting": "or",
+            "n_units_0": 109,
+            "layer_type": "without ks",
+            "multiplicative_coef_temp": 0.994983947349403
+        }
+    },
+    {
+        "experiment": "VisualTTT",
+        "group": "Ours_dnf",
+        "epochs": 400,
+        "repetitions": 2,
+        "seed": 42,
+        "batch_size": 256,
+        "epochs_between_eval": 10,
+        "repetitions_dataset": 2,
+        "hyperparameters": {
+            "lr": 0.1079991123908686,
+            "temp": 0.5771846860691223,
+            "lr_cnn": 0.0006492796903934207,
+            "noise_w": 1.007915394397573,
+            "min_temp": 0.19821333118002105,
+            "n_layers": 2,
+            "starting": "and",
+            "n_units_0": 120,
+            "layer_type": "without ks",
+            "multiplicative_coef_temp": 0.992860827812132
+        }
+    }
+]

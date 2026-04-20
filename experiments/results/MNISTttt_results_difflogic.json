@@ -1,0 +1,37 @@
+[
+    {
+        "experiment": "MNIST-TTT",
+        "group": "DLN_any",
+        "epochs": 400,
+        "repetitions": 30,
+        "seed": 42,
+        "batch_size": 256,
+        "epochs_between_eval": 10,
+        "hyperparameters": {
+            "n_layers": 7,
+            "n_units_0": 110,
+            "n_units_1": 319,
+            "n_units_2": 215,
+            "n_units_3": 264,
+            "n_units_4": 466,
+            "n_units_5": 315,
+            "n_units_6": 428,
+            "grad_factor": 1.4535134593443808,
+            "tau": 4.317859660322197,
+            "lr_diff": 0.04047264802746731,
+            "lr_cnn": 0.00016860306931520502
+        },
+        "results": {
+            "mean_acc": 96.00694444444444,
+            "mean_f1": 0.9553890381183752,
+            "mean_ewf1": 0.9468804994623709,
+            "mean_runtime": 162.3520116885503,
+            "std_acc": 0.6355210145042728,
+            "std_f1": 0.007101955764055804,
+            "std_ewf1": 0.006435792279214337,
+            "std_runtime": 12.276929395818902,
+            "f1_sym_mean": 0.36861960727437193,
+            "f1_sym_std": 0.20830459209207874
+        }
+    }
+]

@@ -1,0 +1,6 @@
+__pycache__
+.DS_Store
+.profile
+*.pickle
+experiments/data/wildfire_risk/images/
+experiments/results/wildfire_risk*

@@ -1,0 +1,17 @@
+.nose*
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+experiments/
+reuslts/
+Dockerfile
+main.py
+nose.cfg
+output.txt
+run.py
+tf_upgrade_v2-report.txt
+Untitled.ipynb
+results/
+examples/
+tests/
