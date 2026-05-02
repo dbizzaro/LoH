@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Logic of Hypotheses</title>
+  <meta name="description"
+    content="Project page for Logic of Hypotheses: from Zero to Full Knowledge in Neurosymbolic Integration." />
+
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --fg: #18181b;
+      --muted: #5f6368;
+      --card: #ffffff;
+      --border: #e4e4e7;
+      --accent: #1f6feb;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.1;
+      margin: 0 0 16px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .authors {
+      margin-bottom: 32px;
+      color: var(--fg);
+    }
+
+    .abstract-title {
+      font-size: 1rem;
+      margin: 0 0 8px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 28px 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--fg);
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    section {
+      margin-top: 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    code {
+      background: #f0f0f2;
+      padding: 2px 5px;
+      border-radius: 5px;
+    }
+
+    pre {
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      color: var(--muted);
+      margin-top: 32px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="hero">
+      <h1>Logic of Hypotheses</h1>
+
+      <p class="subtitle">
+        From Zero to Full Knowledge in Neurosymbolic Integration
+      </p>
+
+      <p class="authors">
+        Davide Bizzaro and Alessandro Daniele
+      </p>
+
+      <h2 class="abstract-title">Abstract</h2>
+
+      <p>
+        Neurosymbolic integration (NeSy) blends neural-network learning with symbolic reasoning.
+        The field can be split between methods injecting hand-crafted rules into neural models,
+        and methods inducing symbolic rules from data. We introduce <em>Logic of Hypotheses</em>
+        (LoH), a novel language that unifies these strands, enabling the flexible integration of
+        data-driven rule learning with symbolic priors and expert knowledge. LoH extends
+        propositional logic syntax with a <em>choice operator</em>, which has learnable parameters
+        and selects a subformula from a pool of options. Using fuzzy logic, formulas in LoH can be
+        directly compiled into a differentiable computational graph, so the optimal choices can be
+        learned via backpropagation. This framework subsumes some existing NeSy models, while
+        adding the possibility of arbitrary degrees of knowledge specification. Moreover, the use
+        of Gödel fuzzy logic and the recently developed Gödel trick yields models that can be
+        discretized to hard Boolean-valued functions without any loss in performance. We provide
+        experimental analysis on such models, showing strong results on tabular data and on two
+        NeSy tasks with a perceptual component.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="https://arxiv.org/abs/2509.21663">arXiv paper</a>
+        <!--<a class="button" href="https://arxiv.org/pdf/2509.21663">PDF paper</a>-->
+        <a class="button" href="supplementary_materials.pdf">Supplementary materials</a>
+        <a class="button" href="https://github.com/dbizzaro/LoH">Code</a>
+      </div>
+    </div>
+
+    <!--
+    <section>
+      <h2>Code</h2>
+      <p>
+        The implementation includes LoH neural network models, formula-compilation
+        utilities, experiment scripts, notebooks, and result files.
+      </p>
+      <p>
+        Main files include <code>models.py</code>, <code>general_models.py</code>,
+        <code>layers.py</code>, and the <code>experiments/</code> directory.
+      </p>
+    </section>
+    -->
+
+    <section>
+      <h2>Citation</h2>
+      <pre><code>@article{bizzaro2025logic,
+  title={Logic of Hypotheses: from Zero to Full Knowledge in Neurosymbolic Integration},
+  author={Bizzaro, Davide and Daniele, Alessandro},
+  journal={arXiv preprint arXiv:2509.21663},
+  year={2025}
+}</code></pre>
+    </section>
+
+    <!--
+    <footer>
+      Logic of Hypotheses (LoH).
+    </footer>
+    -->
+  </main>
+</body>
+
+</html>
