@@ -67,6 +67,10 @@ See the notebooks.
 
 ```
 LoH/
+├── docs/                           # GitHub Pages project website
+│   ├── index.html                     # project page
+│   ├── supplementary_materials.pdf    # supplementary materials linked from the website
+│   └── .nojekyll                      # disables Jekyll processing for GitHub Pages
 ├── experiments/                    # scripts for the experiments
 │   ├── data/                          # datasets
 │   ├── DILP/                          # code for running dILP on the wildfire risk task
