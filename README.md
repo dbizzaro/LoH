@@ -1,3 +1,4 @@
+[![Accepted at KR 2026](https://img.shields.io/badge/Accepted%20at-KR%202026-blue)](https://kr.org/)
 [![Paper](http://img.shields.io/badge/paper-arxiv.2509.21663-B31B1B.svg)](https://arxiv.org/abs/2509.21663)
 # Logic of Hypotheses
 
